@@ -1,0 +1,31 @@
+.header-right {
+  padding: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  float: left;
+  font-family: BrandonGrotesque !important;
+}
+
+.header a {
+  color: white;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-family: "Oswald", "Times New Roman", sans-serif;
+  justify-content: center;
+}
+
+.header {
+  background-color: grey;
+  position: relative;
+  width: 100%;
+  min-height: 50px;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  z-index: 1;
+}
