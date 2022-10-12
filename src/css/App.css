@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
 }
 
 .App-logo {
@@ -23,7 +22,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
-
 }
 
 .App-link {
@@ -44,6 +42,7 @@
   src: url("/fonts/Montserrat-Black.ttf");
 }
 
+
 @font-face {
   font-family: "RobotoSlab";
   src: url("/fonts/RobotoSlab.ttf");
@@ -55,4 +54,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Arial", sans-serif !important;
 }
-
