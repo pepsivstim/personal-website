@@ -6,7 +6,7 @@ function Art() {
       <div>
         <Header />
       </div>
-      <h1>ajsdgadjsajdsajdshj</h1>
+    
     </div>
   );
 };

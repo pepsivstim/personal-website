@@ -3,8 +3,8 @@ import '../css/Button.css';
 
 function Button(props) {
   return (
-    <div class="button-wrapper">
-      <a class="header-button" href={props.href}>{props.name}</a>
+    <div className="button-wrapper">
+      <a className="header-button" href={props.href}>{props.name}</a>
     </div>
   );
 }

@@ -1,31 +1,42 @@
 .header-right {
   padding: 5px;
+  float: right;
+  height: inherit;
 }
 
 .logo {
   display: flex;
   align-items: center;
   float: left;
-  font-family: BrandonGrotesque !important;
+  margin: auto;
+  font-size: 80px;
+}
+
+.logo-div {
+  float: left;
+  padding: 20px;
+  margin: auto;
 }
 
 .header a {
   color: white;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 40px;
   line-height: 25px;
   border-radius: 4px;
-  font-family: "Oswald", "Times New Roman", sans-serif;
   justify-content: center;
 }
 
 .header {
-  background-color: grey;
+  background-color: #177bac;
   position: relative;
   width: 100%;
-  min-height: 50px;
+  min-height: 80px;
   border-bottom: 5px solid black;
   border-top: 5px solid black;
   z-index: 1;
+  font-family: "Montserrat", sans-serif;
 }
+
+

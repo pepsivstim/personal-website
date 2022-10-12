@@ -4,6 +4,10 @@ function About() {
   return (
     <div>
       <Header />
+      <div>
+        <p>test</p>
+      </div>
+      
     </div>
   );
 };
