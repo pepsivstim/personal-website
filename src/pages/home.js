@@ -10,7 +10,7 @@ function Home() {
         <div className="under-header">
           <img src="/images/Wrecks_of_the_World.png" alt="logo" class="center"/>
         </div>
-        <h1 color="black">WORK IN PROGRESS</h1>
+        <h1 color="black">WORK IN PROGRESS!!!</h1>
       </div>
     </div>
   );
