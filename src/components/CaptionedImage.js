@@ -6,7 +6,7 @@ function CaptionedImage(props) {
     <div class="captioned-image-container">
       <img class='captioned-image' alt="Didn't load" src={props.name} />
       <div>
-        Bruh
+        <p bottom="0">Caption</p>
       </div>
     </div>
 

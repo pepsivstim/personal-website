@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
+
 function Art() {
   return (
-    <div>
-      <div>
+    <div className='page-container'>
         <Header />
-      </div>
-    
+        <main>
+
+        </main>
+        <Footer />
     </div>
   );
 };

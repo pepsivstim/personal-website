@@ -1,13 +1,17 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 function Video() {
   return (
-    <div>
+    <div className='page-container'>
       <Header />
-        <div className="center-text-container">
-          <p>I love video editing! </p>
+      <main>
+        <div className='main-container'>
+          <p className='main-text'>I love video editing! </p>
         </div>
-      
+      </main>
+      <Footer />
+        
     </div>
   );
 };

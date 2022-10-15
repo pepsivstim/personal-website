@@ -1,8 +1,9 @@
 .captioned-image-container {
-  float: left;
-  padding: 10px 10px 10px 10px;
+  margin: auto;
+  padding: 20px;
   min-height: 500px;
-  width: 33%;
+  width: 30%;
+
 }
 .captioned-image {
   position:absolute;

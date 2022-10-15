@@ -1,7 +1,19 @@
+.header {
+  background-color: #053067;
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  height: 10%;
+
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+}
+
 .header-right {
   padding: 5px;
   float: right;
   height: inherit;
+  width: 50%;
 }
 
 .logo {
@@ -22,21 +34,12 @@
   color: white;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 20px;
   line-height: 25px;
   border-radius: 4px;
   justify-content: center;
 }
 
-.header {
-  background-color: #177bac;
-  position: relative;
-  width: 100%;
-  min-height: 80px;
-  border-bottom: 5px solid black;
-  border-top: 5px solid black;
-  z-index: 1;
-  font-family: "Montserrat", sans-serif;
-}
+
 
 

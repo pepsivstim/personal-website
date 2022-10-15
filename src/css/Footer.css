@@ -1,0 +1,22 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 100px;
+}
+
+
+
+.footer-info-container {
+    display: -webkit-flex;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.footer-info-text {
+    display: -webkit-flex;
+    float: right;
+    display: flex;
+    align-items: center;
+}

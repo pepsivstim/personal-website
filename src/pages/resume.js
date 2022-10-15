@@ -1,12 +1,19 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 function Resume() {
   return (
-    <div>
+    <div className="page-container">
       <Header /> 
-      <a href='Timothy_Chu_Resume.pdf' target='_blank' rel='noopener noreferrer'> Resume</a>
+      <main>
+          <div className='main-container'>
+            <a href='Timothy_Chu_Resume.pdf' target='_blank' rel='noopener noreferrer'> Resume</a>
+          </div>
+      </main>
+      <Footer />
+      
 
     </div>
   );
