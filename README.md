@@ -1,3 +1,8 @@
 # My Personal Website
 
-My personal website. There is a ton to learn!!!
+Goal: Build a website that showcases my hobbies, interests, and things I love.
+
+
+Pages:
+- Home
+- Art
