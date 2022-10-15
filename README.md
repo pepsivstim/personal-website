@@ -11,3 +11,4 @@ Pages:
 - Photos
 - Music
 - Art
+- Games
