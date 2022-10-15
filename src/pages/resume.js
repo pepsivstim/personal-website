@@ -3,7 +3,8 @@ import Header from '../components/Header';
 function Resume() {
   return (
     <div>
-      <Header />
+      <Header /> 
+      <a href="/Timothy_Chu_Resume.pdf"> My Resume</a>
 
     </div>
   );

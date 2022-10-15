@@ -5,7 +5,7 @@ function About() {
     <div>
       <Header />
       <div>
-        <p>test</p>
+        <p>HI! I'm Timothy, a student at the University of Maryland College Park</p>
       </div>
       
     </div>

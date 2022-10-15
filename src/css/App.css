@@ -55,3 +55,19 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+h1 {
+  color: white;
+}
+
+p.caption {
+  color: white;
+}
+
+.center-class-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 33%;
+}

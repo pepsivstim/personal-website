@@ -8,9 +8,11 @@ function Home() {
       <Header />
       <div className="App-header">
         <div className="under-header">
+          <h1>WORK in PROGRESS!!!</h1>
           <img src="/images/Wrecks_of_the_World.png" alt="logo" class="center"/>
+          <p className="caption">This is a drawing I did in Third grade for an art contest spreading awareness about lifeboats.</p>
         </div>
-        <h1 color="black">WORK in PROGRESS!!!</h1>
+       
       </div>
     </div>
   );
