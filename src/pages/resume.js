@@ -9,7 +9,7 @@ function Resume() {
       <Header /> 
       <main>
           <div className='main-container'>
-            <a href='Timothy_Chu_Resume.pdf' target='_blank' rel='noopener noreferrer'> Resume</a>
+            <a href='Timothy_Chu_Resume.pdf' target='_blank' rel='noopener noreferrer' className='main-text'> Resume</a>
           </div>
       </main>
       <Footer />

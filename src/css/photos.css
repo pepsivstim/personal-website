@@ -1,12 +1,6 @@
-.column {
-  float: left;
-  width: 30%;
-  padding: 10px;
-}
-
-.row {
-  padding: 10% 10px 80px 10px;
+.image-row {
   width: 90%;
+  min-height: 30%;
 }
 
 .photos-container {

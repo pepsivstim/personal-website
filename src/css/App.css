@@ -1,47 +1,7 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #053067;;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-Black.ttf");
 }
-
 
 @font-face {
   font-family: "RobotoSlab";
@@ -61,43 +21,28 @@ h1 {
 
 p {
   color: white;
-}
-
-p.caption {
-  color: white;
-}
-
-.center-class-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  min-height: 100vh;
-  width: 33%;
 }
 
-.main {
+.page-container {
   background-color: #053067;
-  width: 90%;
+  min-height: 800px;
+  font-size: 14px;
 }
+
 .main-container {
   width: 40%;
   margin: auto;
   background-color: #053067;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10% 5% 10% 5%;
 }
 
 .main-text {
   text-align: center;
 }
 
-.img {
-  width: inherit;
-  height: auto;
-}
-
-.page-container {
-  background-color: #053067;
-  min-height: 800px;
+#wrecks-photo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }

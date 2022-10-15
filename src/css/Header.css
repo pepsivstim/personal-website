@@ -3,17 +3,20 @@
   position: relative;
   width: 100%;
   min-height: 100px;
-  height: 10%;
-
+  max-width: 1000px;
+  margin: auto;
+  height: 50%;
   z-index: 1;
   font-family: "Montserrat", sans-serif;
 }
 
 .header-right {
-  padding: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
   float: right;
-  height: inherit;
-  width: 50%;
+  position: absolute; 
+  right: 0;
 }
 
 .logo {
@@ -34,10 +37,14 @@
   color: white;
   padding: 10px 10px 10px 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.5rem;
   line-height: 25px;
-  border-radius: 4px;
-  justify-content: center;
+  letter-spacing: .04em;
+}
+
+.header a:hover {
+  border-radius: 0px;
+  border-bottom: 1px solid white;
 }
 
 

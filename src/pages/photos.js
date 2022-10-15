@@ -4,20 +4,15 @@ import Footer from '../components/Footer';
 import '../css/photos.css';
 import CaptionedImage from '../components/CaptionedImage';
 
-
-
-
 function Photos() {
   return (
-    <div class="page-container">
+    <div className='page-container'>
       <Header />
       <main>
-        <div class='photos-container'>
-          <div class="row">
-              <CaptionedImage name={'/images/first_picture.JPG'} />
-              <CaptionedImage name={'/images/sunset_home.JPG'} />
-              <CaptionedImage name={'/images/zion_mountains.jpeg'} />
-          </div>
+        <div className='photos-container'>
+          <CaptionedImage name='/images/first_picture.JPG' caption='First picture taken'/>
+          <CaptionedImage name={'/images/sunset_home.JPG'} />
+          <CaptionedImage name={'/images/zion_mountains.jpeg'} />
         </div>
       </main>
       <Footer />
