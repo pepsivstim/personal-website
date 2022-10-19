@@ -1,10 +1,12 @@
 .footer {
     background-color: #053067;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
-    min-height: 100px;
+    height: 100px;
+    display: block;
+    
 }
+
 
 .footer-info-container {
     display: flex;

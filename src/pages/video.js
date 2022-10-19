@@ -6,9 +6,9 @@ function Video() {
     <div className='page-container'>
       <Header />
       <main>
-        <div className='main-container'>
-          <p className='main-text'>I love video editing! </p>
-        </div>
+        
+        <p className='main-text'>I love video editing! </p>
+        
       </main>
       <Footer />
         

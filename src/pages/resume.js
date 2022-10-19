@@ -8,9 +8,9 @@ function Resume() {
     <div className="page-container">
       <Header /> 
       <main>
-          <div className='main-container'>
-            <p>This is my resume: <a href='Timothy_Chu_Resume.pdf' target='_blank' rel='noopener noreferrer' className='main-text'> Resume</a></p>
-          </div>
+          
+        <p>This is my resume: <a href='Timothy_Chu_Resume.pdf' target='_blank' rel='noopener noreferrer' className='main-text'> Resume</a></p>
+          
       </main>
       <Footer />
       
