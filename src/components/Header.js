@@ -11,17 +11,17 @@ function Header() {
       <div className="header-right">
         <Button name="About" href="/about"/>
         <Button name="Resume" href="/resume"/>
-        <div class="dropdown">
-          <h1 class="dropbutton" href='/'>Media</h1>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <h1 className="dropbutton" href='/'>Media</h1>
+          <div className="dropdown-content">
             <Button name="Photo" href="/photo"/>
             <Button name="Art" href="/art"/>
             <Button name="Video" href="/video"/>
           </div>
         </div>
-        <div class="dropdown">
-          <h1 class="dropbutton" href='/'>Hobbies</h1>
-          <div class="dropdown-content">
+        <div className="dropdown">
+          <h1 className="dropbutton" href='/'>Hobbies</h1>
+          <div className="dropdown-content">
             <Button name="Running" href="/running"/>
             <Button name="Aquarium" href="/aquarium"/>
             <Button name="Music" href="/music"/>
@@ -32,7 +32,7 @@ function Header() {
           <div className='hamburger-line'></div>
           <div className='hamburger-line'></div>
           <div className='hamburger-line'></div>
-          <div class="hamburger-content">
+          <div className="hamburger-content">
             <Button name="About" href="/about"/>
             <Button name="Resume" href="/resume"/>
             <Button name="Photo" href="/photo"/>

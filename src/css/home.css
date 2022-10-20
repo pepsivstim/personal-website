@@ -1,8 +1,3 @@
-.home-main-container {
-    width: 40%;
-    margin: auto;
-    background-color: #053067;
-    padding-left: 100px;
-    padding-right: 100px;
-    font-size: 1rem;
+.home-page-container img {
+    width: 100%;
 }
