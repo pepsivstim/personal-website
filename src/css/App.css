@@ -37,9 +37,9 @@ p {
 
 
 main {
-  width: 40%;
-  height: inherit;
-  min-height: inherit;
+  width: 80%;
+
+  max-width: 800px;
   margin: auto;
   background-color: #053067;
   padding: 2%;
