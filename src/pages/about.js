@@ -8,10 +8,11 @@ function About() {
     <div className='page-container'>
       <Header />
       <main>
-        <p className='main-text'>HI! I'm Timothy, a student at the University of Maryland College Park</p>
+        <p className='main-text'>
+          HI! I'm Timothy, a student at the University of Maryland College Park
+        </p>
       </main>
       <Footer />
-      
     </div>
   );
 };
