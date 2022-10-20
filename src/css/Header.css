@@ -60,13 +60,26 @@
   z-index: 1;
 }
 
+
+
 /* Links inside the dropdown */
 .dropdown-content a {
-
   text-decoration: none;
   display: block;
 }
 
+.hamburger-content {
+  display: none;
+  position: absolute;
+  background-color: lightcoral;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 10px;
+}
+
+.hamburger-menu:hover .hamburger-content {
+  display: block;
+}
 
 
 .dropdown:hover .dropdown-content {
@@ -82,7 +95,6 @@
 .hamburger-menu {
   display: none;
   margin-left: auto;
-  
 }
 
 .hamburger-menu:hover .dropdown-content{
