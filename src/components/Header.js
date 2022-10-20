@@ -14,7 +14,7 @@ function Header() {
         <div class="dropdown">
           <h1 class="dropbutton" href='/'>Media</h1>
           <div class="dropdown-content">
-            <Button name="Photo" href="/photos"/>
+            <Button name="Photo" href="/photo"/>
             <Button name="Art" href="/art"/>
             <Button name="Video" href="/video"/>
           </div>
@@ -22,8 +22,8 @@ function Header() {
         <div class="dropdown">
           <h1 class="dropbutton" href='/'>Hobbies</h1>
           <div class="dropdown-content">
-            <Button name="Running" href="/art"/>
-            <Button name="Aquariums" href="/video"/>
+            <Button name="Running" href="/running"/>
+            <Button name="Aquarium" href="/aquarium"/>
             <Button name="Music" href="/music"/>
           </div>
         </div>
@@ -35,11 +35,11 @@ function Header() {
           <div class="hamburger-content">
             <Button name="About" href="/about"/>
             <Button name="Resume" href="/resume"/>
-            <Button name="Photo" href="/photos"/>
+            <Button name="Photo" href="/photo"/>
             <Button name="Art" href="/art"/>
             <Button name="Video" href="/video"/>
-            <Button name="Running" href="/art"/>
-            <Button name="Aquariums" href="/video"/>
+            <Button name="Running" href="/running"/>
+            <Button name="Aquarium" href="/aquarium"/>
             <Button name="Music" href="/music"/>
           </div>
           

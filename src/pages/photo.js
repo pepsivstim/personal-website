@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import '../css/photos.css';
+import '../css/photo.css';
 import CaptionedImage from '../components/CaptionedImage';
 
-function Photos() {
+function Photo() {
   return (
     <div className='page-container'>
       <Header />
@@ -20,4 +20,4 @@ function Photos() {
   );
 };
 
-export default Photos;
+export default Photo;

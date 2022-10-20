@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-function Running() {
+function Aquarium() {
   return (
     <div className='page-container'>
       <Header />
@@ -14,4 +14,4 @@ function Running() {
   );
 };
 
-export default Running;
+export default Aquarium;
