@@ -2,13 +2,20 @@
     background-color: #053067;
     position: relative;
     width: 100%;
+    max-width: 1000px;
     height: 100px;
     display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 .footer-info-container {
     display: flex;
-    float: right;
+    height: 100%;
+    align-items: center;
+    margin: auto;
 }
 
 .footer-info-text {
@@ -16,4 +23,10 @@
     float: right;
     display: flex;
     align-items: center;
+}
+
+.icon-container {
+    height: 100%;
+    display: flex;
+    position: absolute;
 }

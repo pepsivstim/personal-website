@@ -1,5 +1,5 @@
 .header {
-  background-color: #053067;
+  background-color: inherit;
   position: relative;
   width: 100%;
   height: 100px;
@@ -62,7 +62,6 @@
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   text-decoration: none;
   display: block;
@@ -81,7 +80,6 @@
   display: block;
 }
 
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -90,7 +88,6 @@
   font-size: 1.5rem;
   margin: 0;
 }
-
 
 .hamburger-menu {
   display: none;
@@ -107,8 +104,6 @@
   background-color: white;
   margin: 6px 0;
 }
-
-
 
 @media screen and (max-width: 800px){
   .header-right {

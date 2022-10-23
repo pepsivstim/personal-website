@@ -10,7 +10,7 @@ function Header() {
                         <path d="M10 15L21 3"></path>
                       </svg>
   
-  const githubLink = <a href='https://github.com/pepsivstim' target='_blank' rel='noopener noreferrer'>GitHub{newTabSVG}</a> ;
+  const githubLink = <a href='https://github.com/pepsivstim' target='_blank' rel='noopener noreferrer'>GitHub{newTabSVG}</a>;
   const linkedinLink = <a href='https://www.linkedin.com/in/timchu2002' target='_blank' rel='noopener noreferrer'>LinkedIn{newTabSVG}</a>;
   const youtubeLink = <a href='https://www.youtube.com/c/pepsivstim' target='_blank' rel='noopener noreferrer'>YouTube{newTabSVG}</a>;
   const spotifyLink = <a href='https://open.spotify.com/user/eminaenigma?si=825d8eba2d144e82' target='_blank' rel='noopener noreferrer'>Spotify{newTabSVG}</a>;
@@ -27,7 +27,6 @@ function Header() {
     </div>)
   };
 
-
   const runningLink = <a href='/running'>Running</a>;
   const projectLink = <a href='/projects'>Projects</a>;
   const resumeLink = <a href='/resume'>Resume</a>;
@@ -35,6 +34,7 @@ function Header() {
   const photoLink = <a href='/photo'>Photo</a>;
   const artLink = <a href='/art'>Art</a>;
   const musicLink = <a href='/music'>Music</a>;
+  const aboutLink = <a href='/about'>About</a>;
 
   return (
     <div className="header">
@@ -51,6 +51,7 @@ function Header() {
             <LinkContainer>{spotifyLink}</LinkContainer>
         </Dropdown>
         <Dropdown name='Other'>
+          <LinkContainer>{aboutLink}</LinkContainer>
             <LinkContainer>{videoLink}</LinkContainer>
             <LinkContainer>{photoLink}</LinkContainer>
             <LinkContainer>{artLink}</LinkContainer>
@@ -63,6 +64,7 @@ function Header() {
           <div className='hamburger-line'></div>
           <div className='hamburger-line'></div>
           <div className="hamburger-content">
+            <LinkContainer>{aboutLink}</LinkContainer>
             <LinkContainer>{projectLink}</LinkContainer>
             <LinkContainer>{resumeLink}</LinkContainer>
             <LinkContainer>{artLink}</LinkContainer>

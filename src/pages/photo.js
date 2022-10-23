@@ -11,8 +11,14 @@ function Photo() {
       <main>
         <div className='photos-container'>
           <CaptionedImage name='/images/first_picture.JPG' caption='First picture taken'/>
-          <CaptionedImage name={'/images/sunset_home.JPG'} />
-          <CaptionedImage name={'/images/zion_mountains.jpeg'} />
+          <CaptionedImage name='/images/sunset_home.JPG' caption='First picture taken'/>
+          <CaptionedImage name='/images/zion_mountains.jpeg' caption='First picture taken'/>
+          <CaptionedImage name='/images/first_picture.JPG' caption='First picture taken'/>
+          <CaptionedImage name='/images/sunset_home.JPG' caption='First picture taken'/>
+          <CaptionedImage name='/images/zion_mountains.jpeg' caption='First picture taken'/>
+          <CaptionedImage name='/images/first_picture.JPG' caption='First picture taken'/>
+          <CaptionedImage name='/images/sunset_home.JPG' caption='First picture taken'/>
+          <CaptionedImage name='/images/zion_mountains.jpeg' caption='First picture taken'/>
         </div>
       </main>
       <Footer />
