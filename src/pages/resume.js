@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function Resume() {
-  const downloadSVG = <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#8899a4" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
+  const downloadSVG = <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="#8899a4" strokeWidth="2" strokeLinecap="square" strokeLinejoin="arcs">
                         <path d="M3 17v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 12l-5 5-5-5M12 14.8V2.5"></path>
                       </svg>
   return (

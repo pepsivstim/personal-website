@@ -4,7 +4,7 @@ import '../css/Header.css';
 
 function Header() {
 
-  const newTabSVG =  <svg className='new-tab-svg'fill="none" height="1em" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="1em">
+  const newTabSVG =  <svg className='new-tab-svg'fill="none" height="1em" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="1em">
                         <path d="M18 14v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                         <path d="M15 4h6v6"></path>
                         <path d="M10 15L21 3"></path>
