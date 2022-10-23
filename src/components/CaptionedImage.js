@@ -4,7 +4,7 @@ import '../css/CaptionedImage.css'
 function CaptionedImage(props) {
   return (
     <div className='captioned-image-container'>
-      <img className='captioned-image' alt="Didn't load" src={props.name} />
+      <img className='captioned-image' alt={props.name} src={props.name} />
       <p>{props.caption}</p>
     </div>
 
