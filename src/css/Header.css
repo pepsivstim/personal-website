@@ -11,7 +11,6 @@
   padding-left: 5%;
   padding-right: 5%;
   box-sizing: border-box;
-
 }
 
 .header-right {
@@ -30,6 +29,7 @@
 .header a {
   color: white;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
   font-size: 1.5rem;
   line-height: 25px;
   letter-spacing: .04em;
@@ -51,6 +51,7 @@
 .dropdown {
   margin: auto;
   padding: 10px;
+  border-bottom: 1px solid transparent;
 }
 
 .dropdown-content {
