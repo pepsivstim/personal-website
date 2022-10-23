@@ -13,12 +13,23 @@ function Header() {
   const githubLink = <a href='https://github.com/pepsivstim' target='_blank' rel='noopener noreferrer'>GitHub{newTabSVG}</a> ;
   const linkedinLink = <a href='https://www.linkedin.com/in/timchu2002' target='_blank' rel='noopener noreferrer'>LinkedIn{newTabSVG}</a>;
   const youtubeLink = <a href='https://www.youtube.com/c/pepsivstim' target='_blank' rel='noopener noreferrer'>YouTube{newTabSVG}</a>;
+  const spotifyLink = <a href='https://open.spotify.com/user/eminaenigma?si=825d8eba2d144e82' target='_blank' rel='noopener noreferrer'>Spotify{newTabSVG}</a>;
 
-  function LinkContainer(props) {return <div className='link-container'>{props.children}</div>};
+  function LinkContainer(props) { return <div className='link-container'>{props.children}</div>};
+
+  function Dropdown(props) { 
+    return (
+    <div className="dropdown">
+      <h1 className="dropbutton" href='/'>{props.name}</h1>
+      <div className="dropdown-content">
+          {props.children}
+      </div>        
+    </div>)
+  };
 
 
   const runningLink = <a href='/running'>Running</a>;
-  const projectLink = <a href='/about'>Projects</a>;
+  const projectLink = <a href='/projects'>Projects</a>;
   const resumeLink = <a href='/resume'>Resume</a>;
   const videoLink = <a href='/video'>Video</a>;
   const photoLink = <a href='/photo'>Photo</a>;
@@ -33,24 +44,19 @@ function Header() {
       <div className="header-right">
         <LinkContainer>{projectLink}</LinkContainer>
         <LinkContainer>{resumeLink}</LinkContainer>
-        <div className="dropdown">
-          <h1 className="dropbutton" href='/'>Links</h1>
-          <div className="dropdown-content">
+        <Dropdown name='Links'>
             <LinkContainer>{githubLink}</LinkContainer>
             <LinkContainer>{youtubeLink}</LinkContainer>
             <LinkContainer>{linkedinLink}</LinkContainer>
-          </div>
-        </div>
-        <div className="dropdown">
-          <h1 className="dropbutton" href='/'>Other</h1>
-          <div className="dropdown-content">
+            <LinkContainer>{spotifyLink}</LinkContainer>
+        </Dropdown>
+        <Dropdown name='Other'>
             <LinkContainer>{videoLink}</LinkContainer>
             <LinkContainer>{photoLink}</LinkContainer>
             <LinkContainer>{artLink}</LinkContainer>
             <LinkContainer>{musicLink}</LinkContainer>
             <LinkContainer>{runningLink}</LinkContainer>
-          </div>
-        </div>
+        </Dropdown>
       </div>
       <div className='hamburger-menu'>
           <div className='hamburger-line'></div>
@@ -66,6 +72,7 @@ function Header() {
             <LinkContainer>{githubLink}</LinkContainer>
             <LinkContainer>{youtubeLink}</LinkContainer>
             <LinkContainer>{linkedinLink}</LinkContainer>
+            <LinkContainer>{spotifyLink}</LinkContainer>
           </div>
           
       </div>

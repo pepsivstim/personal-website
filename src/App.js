@@ -9,6 +9,7 @@ import Music from './pages/music';
 import Resume from './pages/resume';
 import Aquarium from './pages/music';
 import Running from './pages/running';
+import Projects from './pages/projects';
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -25,6 +26,7 @@ function App() {
               <Route path='/resume' element= <Resume/> />
               <Route path='/aquarium' element= <Aquarium/> />
               <Route path='/running' element= <Running/> />
+              <Route path='/projects' element= <Projects/> />
 
           </Routes>
         </Router>
