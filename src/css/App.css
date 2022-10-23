@@ -21,6 +21,7 @@ main {
   padding: 2%;
   display: block;
   overflow: height;
+  min-height: calc(100vh - 250px);
 }
 
 body {
@@ -37,6 +38,10 @@ h1 {
 p {
   color: white;
   text-align: center;
+}
+
+img {
+  border-radius: 1%;
 }
 
 .page-container {

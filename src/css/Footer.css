@@ -4,9 +4,10 @@
     width: 100%;
     max-width: 1000px;
     height: 100px;
-    display: block;
+    display: flex;
     padding-left: 5%;
     padding-right: 5%;
+    align-items: center;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -15,18 +16,25 @@
     display: flex;
     height: 100%;
     align-items: center;
-    margin: auto;
-}
-
-.footer-info-text {
-    display: -webkit-flex;
-    float: right;
-    display: flex;
-    align-items: center;
 }
 
 .icon-container {
     height: 100%;
     display: flex;
-    position: absolute;
+    align-items: center;
+    margin-left: auto;
 }
+
+.footer-icons {
+    width: 30px;
+    height: 30px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10%;
+    filter: invert(98%) sepia(1%) saturate(0%) hue-rotate(78deg) brightness(118%) contrast(100%);
+}
+

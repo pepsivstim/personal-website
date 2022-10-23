@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Header.css';
+import {GITHUB, SPOTIFY, LINKEDIN, YOUTUBE} from '../links.js';
 
 
 function Header() {
@@ -10,10 +11,10 @@ function Header() {
                         <path d="M10 15L21 3"></path>
                       </svg>
   
-  const githubLink = <a href='https://github.com/pepsivstim' target='_blank' rel='noopener noreferrer'>GitHub{newTabSVG}</a>;
-  const linkedinLink = <a href='https://www.linkedin.com/in/timchu2002' target='_blank' rel='noopener noreferrer'>LinkedIn{newTabSVG}</a>;
-  const youtubeLink = <a href='https://www.youtube.com/c/pepsivstim' target='_blank' rel='noopener noreferrer'>YouTube{newTabSVG}</a>;
-  const spotifyLink = <a href='https://open.spotify.com/user/eminaenigma?si=825d8eba2d144e82' target='_blank' rel='noopener noreferrer'>Spotify{newTabSVG}</a>;
+  const githubLink = <a href={GITHUB} target='_blank' rel='noopener noreferrer'>GitHub{newTabSVG}</a>;
+  const linkedinLink = <a href={LINKEDIN} target='_blank' rel='noopener noreferrer'>LinkedIn{newTabSVG}</a>;
+  const youtubeLink = <a href={YOUTUBE} target='_blank' rel='noopener noreferrer'>YouTube{newTabSVG}</a>;
+  const spotifyLink = <a href={SPOTIFY} target='_blank' rel='noopener noreferrer'>Spotify{newTabSVG}</a>;
 
   function LinkContainer(props) { return <div className='link-container'>{props.children}</div>};
 
