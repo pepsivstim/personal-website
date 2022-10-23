@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/art.css'
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import CaptionedImage from '../components/CaptionedImage';
 
 function Art() {
   const mainText = `I've always had a natural curiosity towards drawing. I drew here and there as a child, but didn't start really 
@@ -13,8 +14,8 @@ function Art() {
       <Header />
         <main>
           <p className='main-text'>{mainText}</p>
-          <img src="/images/Wrecks_of_the_World.png" alt="logo" id='wrecks-photo'/>
-          <p className="caption">This is a drawing I did in Third grade for an art contest spreading awareness about lifeboats.</p>
+          <CaptionedImage src='/images/Wrecks_of_the_World.png' caption='This is a drawing I did in Third grade for an art contest spreading awareness about lifeboats.'></CaptionedImage>
+
         </main>
         <Footer />
     </div>

@@ -1,7 +1,7 @@
 .captioned-image-container {
   padding: 20px;
-  width: 40%;
   display: inline-block;
+  margin: auto;
 }
 
 .captioned-image {
