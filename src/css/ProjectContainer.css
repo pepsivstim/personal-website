@@ -12,6 +12,7 @@
 
 .project-description-container {
     position: absolute;
+    text-align: left;
     padding: 5px;
     top: 30px;
 }

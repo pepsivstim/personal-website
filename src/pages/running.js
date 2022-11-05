@@ -6,7 +6,15 @@ function Running() {
     <div className='page-container'>
       <Header />
       <main>
-        <p className='main-text'></p>
+        <h1>
+          Unoffical PRs:
+        </h1>
+        <p className='main-text'>
+          Mile: 5:19
+          1500m: 5:02
+          5K: 18:32
+          8k: 31:22
+        </p>
       </main>
       <Footer />
         

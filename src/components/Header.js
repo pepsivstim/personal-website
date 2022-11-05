@@ -36,6 +36,7 @@ function Header() {
   const artLink = <a href='/art'>Art</a>;
   const musicLink = <a href='/music'>Music</a>;
   const aboutLink = <a href='/about'>About</a>;
+  const gamesLink = <a href='/games'>Games</a>;
 
   return (
     <div className="header">
@@ -58,6 +59,7 @@ function Header() {
             <LinkContainer>{artLink}</LinkContainer>
             <LinkContainer>{musicLink}</LinkContainer>
             <LinkContainer>{runningLink}</LinkContainer>
+            <LinkContainer>{gamesLink}</LinkContainer>
         </Dropdown>
       </div>
       <div className='hamburger-menu'>
@@ -72,12 +74,12 @@ function Header() {
             <LinkContainer>{musicLink}</LinkContainer>
             <LinkContainer>{videoLink}</LinkContainer>
             <LinkContainer>{runningLink}</LinkContainer>
+            <LinkContainer>{gamesLink}</LinkContainer>
             <LinkContainer>{githubLink}</LinkContainer>
             <LinkContainer>{youtubeLink}</LinkContainer>
             <LinkContainer>{linkedinLink}</LinkContainer>
             <LinkContainer>{spotifyLink}</LinkContainer>
           </div>
-          
       </div>
     </div>
   );

@@ -10,6 +10,7 @@ import Resume from './pages/resume';
 import Aquarium from './pages/music';
 import Running from './pages/running';
 import Projects from './pages/projects';
+import Games from './pages/games';
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -27,6 +28,7 @@ function App() {
               <Route path='/aquarium' element= <Aquarium/> />
               <Route path='/running' element= <Running/> />
               <Route path='/projects' element= <Projects/> />
+              <Route path='/games' element= <Games/> />
 
           </Routes>
         </Router>

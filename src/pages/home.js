@@ -4,8 +4,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 function Home() {
-  const mainText = `Welcome to my website! I plan for this to be a personal portfolio showcasing my projects,
-                    interests, and hobbies I pursue in my free time. Work in Progress!!`
+  const mainText = `Welcome to my website! I plan for this to be a personal portfolio showcasing my projects
+                    and hobbies I pursue in my free time.`
 
   return (
     <div className="page-container">
