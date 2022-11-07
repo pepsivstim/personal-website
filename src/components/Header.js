@@ -10,10 +10,10 @@ function Header() {
                         <path d="M15 4h6v6"></path>
                         <path d="M10 15L21 3"></path>
                       </svg>
-  
-  const githubLink = <a href={GITHUB} target='_blank' rel='noopener noreferrer'>GitHub{newTabSVG}</a>;
-  const linkedinLink = <a href={LINKEDIN} target='_blank' rel='noopener noreferrer'>LinkedIn{newTabSVG}</a>;
-  const youtubeLink = <a href={YOUTUBE} target='_blank' rel='noopener noreferrer'>YouTube{newTabSVG}</a>;
+  // eslint-disable-next-line
+  const githubLink = <a href={GITHUB} target='_blank' rel='noopener noreferrer'>GitHub{newTabSVG}</a>;// eslint-disable-next-line
+  const linkedinLink = <a href={LINKEDIN} target='_blank' rel='noopener noreferrer'>LinkedIn{newTabSVG}</a>;// eslint-disable-next-line
+  const youtubeLink = <a href={YOUTUBE} target='_blank' rel='noopener noreferrer'>YouTube{newTabSVG}</a>;// eslint-disable-next-line
   const spotifyLink = <a href={SPOTIFY} target='_blank' rel='noopener noreferrer'>Spotify{newTabSVG}</a>;
 
   function LinkContainer(props) { return <div className='link-container'>{props.children}</div>};
@@ -46,12 +46,6 @@ function Header() {
       <div className="header-right">
         <LinkContainer>{projectLink}</LinkContainer>
         <LinkContainer>{resumeLink}</LinkContainer>
-        <Dropdown name='Links'>
-            <LinkContainer>{githubLink}</LinkContainer>
-            <LinkContainer>{youtubeLink}</LinkContainer>
-            <LinkContainer>{linkedinLink}</LinkContainer>
-            <LinkContainer>{spotifyLink}</LinkContainer>
-        </Dropdown>
         <Dropdown name='Other'>
           <LinkContainer>{aboutLink}</LinkContainer>
             <LinkContainer>{videoLink}</LinkContainer>
@@ -75,10 +69,6 @@ function Header() {
             <LinkContainer>{videoLink}</LinkContainer>
             <LinkContainer>{runningLink}</LinkContainer>
             <LinkContainer>{gamesLink}</LinkContainer>
-            <LinkContainer>{githubLink}</LinkContainer>
-            <LinkContainer>{youtubeLink}</LinkContainer>
-            <LinkContainer>{linkedinLink}</LinkContainer>
-            <LinkContainer>{spotifyLink}</LinkContainer>
           </div>
       </div>
     </div>
